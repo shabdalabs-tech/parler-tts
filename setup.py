@@ -18,7 +18,7 @@ import setuptools
 
 
 _deps = [
-    "transformers>=4.46.1,<=4.46.1",
+    "transformers @ git+https://github.com/huggingface/transformers@v4.49.0-Gemma-3",
     "torch",
     "sentencepiece",
     "descript-audio-codec",
